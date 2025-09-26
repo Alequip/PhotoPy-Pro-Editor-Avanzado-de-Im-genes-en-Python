@@ -1,15 +1,64 @@
-# PhotoPy Pro - Editor Avanzado de Imágenes en Python
-# Dependencias requeridas
+# PhotoPy Pro - Development Dependencies
+# Additional tools for development, testing, and code quality
 
-# Procesamiento numérico y científico
-numpy>=1.21.0
+# Include production requirements
+-r requirements.txt
 
-# Procesamiento de imágenes
-opencv-python>=4.5.0
-Pillow>=8.0.0
+# =====================================
+# Testing Framework
+# =====================================
+pytest>=6.0.0
+pytest-qt>=4.0.0          # PyQt testing support
+pytest-cov>=2.12.0        # Coverage reporting
+pytest-mock>=3.6.0        # Mocking utilities
+pytest-xvfb>=2.0.0        # Virtual display for GUI testing
 
-# Interfaz gráfica
-PyQt6>=6.0.0
+# =====================================
+# Code Quality and Formatting
+# =====================================
+black>=21.0.0              # Code formatter
+flake8>=3.9.0             # Linting
+isort>=5.9.0              # Import sorting
+mypy>=0.910               # Type checking
+bandit>=1.7.0             # Security linting
 
-# Librerías estándar de Python (no requieren instalación)
-# sys, os, io, math, random - incluidas en Python
+# Additional flake8 plugins
+flake8-docstrings>=1.6.0
+flake8-import-order>=0.18.0
+flake8-bugbear>=21.0.0
+
+# =====================================
+# Documentation
+# =====================================
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+sphinx-autodoc-typehints>=1.12.0
+
+# =====================================
+# Build and Distribution
+# =====================================
+build>=0.7.0             # Modern Python build tool
+twine>=3.4.0             # PyPI upload tool
+wheel>=0.37.0            # Wheel building
+
+# =====================================
+# Development Tools
+# =====================================
+pre-commit>=2.15.0       # Git hooks
+tox>=3.24.0              # Testing across Python versions
+
+# Debugging and profiling
+pdb++>=0.10.0            # Enhanced debugger
+memory-profiler>=0.60.0  # Memory usage profiling
+line-profiler>=3.3.0     # Line-by-line profiling
+
+# =====================================
+# GUI Development Tools
+# =====================================
+qt6-tools>=6.0.0         # Qt Designer and other tools (optional)
+
+# =====================================
+# Jupyter (for prototyping)
+# =====================================
+jupyter>=1.0.0           # Jupyter notebooks for prototyping
+ipython>=7.25.0          # Enhanced Python shell
