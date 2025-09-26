@@ -226,20 +226,6 @@ pytest tests/test_ui.py
 ## 📝 Licencia
 
 Este proyecto está licenciado bajo la **MIT License** - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🙏 Agradecimientos
-
-- **[PyQt6](https://www.riverbankcomputing.com/software/pyqt/)** - Framework de interfaz gráfica
-- **[Pillow (PIL)](https://python-pillow.org/)** - Biblioteca de procesamiento de imágenes
-- **[OpenCV](https://opencv.org/)** - Algoritmos de visión computacional
-- **[NumPy](https://numpy.org/)** - Computación científica con Python
-
-## 📞 Contacto y Soporte
-
-- **Issues**: [GitHub Issues](https://github.com/tu-usuario/photopy-pro/issues)
-- **Discusiones**: [GitHub Discussions](https://github.com/tu-usuario/photopy-pro/discussions)
-- **Email**: contact@photopy-pro.com
-
 ---
 
 <div align="center">
