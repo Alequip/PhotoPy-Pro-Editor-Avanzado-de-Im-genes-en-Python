@@ -1,1 +1,1 @@
-# PhotoPy-Pro-Editor-Avanzado-de-Im-genes-en-Python
+# PhotoPy Pro - Advanced Image Editor
